@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/css2/style.css"> -->
+    <!-- <link rel="stylesheet" href="css/css2/bootstrap.min.css"> -->
+    <style>
+      
+        header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url('images/3.svg');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #1ee79d;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1ee768;
+}
+
+.btn-xl2 {
+    padding: 20px 40px;
+    border-color: #eb290b;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ed0d0d;
+    background-color: #eff0f0;
+}
+
+        </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.php" active>Home</a></li>
+                <!-- <li><a href="#">Category</a></li> -->
+                <!-- <li><a href="#">Menu</a></li> -->
+                <li><a href="#invest">Investment Opportunity</a></li>
+                <li><a href="#about">About</a></li>
+                
+                <li><a href="login.php" class=" btn-xl">Login</a></li>
+                <!-- <li><a href="register.php" class=" btn btn-xl2">Register</a></li> -->
+            </ul>
+            <!-- <h1 class="logo">Next Invest</h1> -->
+        <img src="images/4.svg">
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Hello Invester</div>
+                <div class="intro-heading">Meaningful investment in Main Street businesses</div>
+                <a href="index.php" class=" btn btn-xl">GET STARTED</a>
+            </div>
+        </div>
+    </header>
+
+</body>
+</html>
